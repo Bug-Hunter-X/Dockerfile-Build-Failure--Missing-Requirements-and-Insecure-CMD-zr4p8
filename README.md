@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error: failure to specify requirements and potential for command injection vulnerabilities. The original Dockerfile lacks a requirements.txt file which causes issues when dependencies are not present on the base image. Also, the CMD instruction is vulnerable to command injection. The solution addresses both these issues.
